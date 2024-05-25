@@ -1,27 +1,56 @@
-# GestorDeTareas
+### README para TODO APP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
+---
 
-## Development server
+#### 🌟 Descripción
+**TODO APP** es una aplicación web dinámica diseñada para ayudarte a gestionar tus tareas diarias de manera eficiente y efectiva. Permite a los usuarios añadir, editar, marcar como completadas y filtrar tareas según su estado, todo desde una interfaz limpia y amigable.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+#### 🔧 Tecnologías Utilizadas
+- **Angular**: Utilizado para el desarrollo del front-end, aprovechando su capacidad para construir aplicaciones reactivas y escalables.
+- **TypeScript**: Lenguaje de programación principal, proporcionando tipado fuerte para mayor claridad y mantenibilidad del código.
+- **Tailwind CSS**: Utilizado para los estilos, permitiendo un diseño responsivo y personalizable con facilidad.
+- **LocalStorage**: Para el almacenamiento persistente de tareas en el navegador del usuario.
 
-## Code scaffolding
+#### 🚀 Características
+- **Gestión de Tareas**: Añade, elimina, y edita tareas con unos pocos clics.
+- **Filtrado de Tareas**: Filtra las tareas en 'Todas', 'Activas' y 'Completadas'.
+- **Persistencia de Datos**: Las tareas se guardan en el almacenamiento local del navegador, asegurando que no perderás tu lista al cerrar el navegador.
+- **Diseño Responsivo**: Se adapta a diferentes tamaños de pantalla, desde móviles hasta desktops.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### 📦 Cómo Comenzar
 
-## Build
+1. **Clonar el Repositorio**
+   ```bash
+   git clone https://tu-repositorio.com/todo-app.git
+   cd todo-app
+   ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. **Instalación**
+   ```bash
+   npm install
+   ```
 
-## Running unit tests
+3. **Ejecutar el Proyecto**
+   ```bash
+   ng serve
+   ```
+   Navega a `http://localhost:4200/` en tu navegador preferido.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### 📘 Guía de Uso
 
-## Running end-to-end tests
+Para comenzar a usar la **TODO APP**, simplemente escribe el nombre de la tarea en el campo de entrada y presiona Enter o haz clic en el botón de añadir. Puedes marcar una tarea como completada clicando en el checkbox junto a cada tarea. Para editar una tarea, haz clic en el botón 'Editar' y modifica el título en el campo de texto que aparece.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+#### 🛠️ Soporte
 
-## Further help
+Si encuentras algún problema o tienes alguna sugerencia, por favor abre un issue en el repositorio de GitHub.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#### 📝 Licencia
+
+Este proyecto está bajo la Licencia MIT. Puedes ver el archivo de licencia para más detalles.
+
+---
+
+Este README proporciona una vista general clara de tu proyecto, incluyendo cómo empezar, utilizar y contribuir a tu aplicación. ¡Espero que encuentres útil esta estructura para tu README!
+
+### fuentes
+<a href = "https://www.youtube.com/watch?v=mAnTRqO_zw8">APP ANGULAR 17 | TAILWINDCSS | SIGNALS Y NUEVA SINTAXIS - App de Tareas</a>
